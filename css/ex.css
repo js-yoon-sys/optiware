@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+@import"/sec/common/css/temp.css";
+
+@import"/common/css/global.css";
+@import"/common/css/layout.css";
+@import"/common/css/module.css";
+@import"/common/css/features.css";
+
+@import"/sec/common/css/local.css";
+
+@font-face {
+	font-family: 'NanumGothic Bold';
+	font-style: normal;
+	font-weight: bold;
+	src: url('/sec/common/font/NanumGothicBold.eot?');
+	src: local('☺'),
+		 url('/sec/common/font/NanumGothicBold.woff') format('woff'),
+		 url('/sec/common/font/NanumGothicBold.ttf') format('truetype');
+}
+
+/* NanumGothicBold */
+.con #gnbp3 ul li a, .bus #gnbp3 ul li a, #wrap #contentHead h1, .productInfo, .productInfo a, .productNav li a, .btnStyle span, .btnStyle.tw span strong,.btnStyle.tw:hover span strong, .submitStyle[type="submit"], #kv.kvGraphic .kvInfo p.price, #kv.kvText .kvInfo p.price, #content_p2.mg .headtitle > h2, .dropdown .fe_ddTriggerWrap a, .dropdownBig .fe_ddTriggerWrap a, .notFound .summ .account h2, .retailer .prdInfo li strong,
+#kv .keyLink li a, .compWrap h2, lnb li, #contentHead .upcCode, .btnStyle.tw span, .btnStyle.tw:hover span, .byCategory.prd ul li strong, #kv .kvArea h2, .kvText p, #kv.kvGraphic p, #kv.general .moreLink, #kv.dynamic .kvArea .modelCode, #kv.dynamic .keyLink li, #content_p2.mg .pathindicator_p2, desc .headTitle, #finder, .searchResult label, .byCategory.prd ul li strong, .searchmore p, .lookingFor .subTitle, .resultLayer h2:first-child, .resultLayer h3, .browsePrd .type h4, .browsePrd .modelNum h4, .compareResults h3, .notFound .byCategory ul li strong, .consumerReview .allRating li, .reviewList .desc h3, .winPop h2, .foot .faqList div h3, .gal h3, #lnb li, .kvText .kvArea h3,
+#footer .siteLink h2, .homeNav ul li a, .homeContent #twitter p, .homeContent #videos .account, .summList .account h2, .consumerReview .reviews h3, .consumerReview .submit h3, .printSolution h2, #kv.general .alignL .kvArea ul, .articlesArea .desc h3, .sitemap h2, .sitemap h2 a {font-family: 'NanumGothic Bold', UnGothic, AppleGothic, MalgunGothic, Dotum, Arial, sans-serif;}
+
+body, .resultList .basicInfo h3, .con #gnbp3 ul li .menu a, .con #gnbp3 ul li.gnb1 .menu li a, .topicList .desc .headTitle, .layPop h2 {font-family: UnGothic, AppleGothic, MalgunGothic, Dotum, Arial, sans-serif;}
+
+/* GNB : consumer */
+.con #gnbp3 ul {height: 79px; margin-bottom: 790px;}
+.con #gnbp3 ul li {width:auto; float:left;}
+.con #gnbp3 ul li.gnb1 {margin-top:50px;}
+.con #gnbp3 ul li a {padding:10px 0; font-size: 14px;}
+.con #gnbp3 ul li a a {padding:0;}
+.con #gnbp3.gnbg ul li.gnb3 .menu {position:absolute; left:325px; width:auto; display:none; _width:100px; }
+.con #gnbp3.gnbg ul li.gnb4 .menu {position:absolute; top:79px; left:320px; width:auto; display:none; margin-right:0; width:472px !important;}
+.con #gnbp3.gnbg ul li.gnb4 .menu ul li {float:left; margin-right:40px;}
+.con #gnbp3.gnbg ul li.gnb4 .menu ul li.clmn0 {width:92px !important;}
+.con #gnbp3.gnbg ul li.gnb4 .menu ul li.clmn1 {width:162px !important;}
+.con #gnbp3.gnbg ul li.gnb4 .menu ul li.clmn2 {width:138px !important; margin-right:0 !important;}
+
+/* 2012-03-07 Add ACG CYN */
+.con #gnbp3.gnbg ul li.gnb3 .menu {position:absolute; top:79px; left:160px; width:auto; display:none; margin-right:0; width:460px !important; padding:20px; }
+.con #gnbp3.gnbg ul li.gnb3 .menu ul li {float:left; margin-right:40px;}
+.con #gnbp3.gnbg ul li.gnb3 .menu ul li.clmn0 {width:140px !important;}
+.con #gnbp3.gnbg ul li.gnb3 .menu ul li.clmn1 {width:160px !important;}
+.con #gnbp3.gnbg ul li.gnb3 .menu ul li.clmn2 {width:80px !important; margin-right:0 !important;}
+
+/* product menu loc. */
+.con #gnbp3.gnbg .products .menu li .subMenu1 {margin-left:-131px; display:none;}
+.con #gnbp3.gnbg .products .menu li .subMenu2 {margin-left:-262px; display:none;}
+.con #gnbp3.gnbg .products .menu li .subMenu3 {margin-left:-393px; display:none;}
+.con #gnbp3.gnbg .products .menu li .subMenu4 {margin-left:-524px; display:none;}
+.con #gnbp3.gnbg .products .menu li .subMenu5 {margin-left:-655px; display:none;}
+.con #gnbp3.gnbg .products .menu li .subMenu6 {margin-left:-786px; display:none;}
+.con #gnbp3.gnbg .products .menu li .subMenu7 {margin-left:-917px; display:none;}
+.con #gnbp3.gnbg .products .menu li .subMenu1 ul {left:auto;}
+.con #gnbp3.gnbg .products .menu li .subMenu3 ul {left:285px;}
+.con #gnbp3.gnbg .products .menu li .subMenu4 ul {left:99px;}
+.con #gnbp3.gnbg .products .menu li .subMenu5 ul {left:215px;}
+.con #gnbp3.gnbg .products .menu li .subMenu6 ul {left:99px;}
+.con #gnbp3.gnbg .products .menu li a {font-weight: normal;}
+
+/* GNB :: business */
+.bus #gnbp3 ul {margin-bottom:790px;}
+.bus #gnbp3 ul li.currentMenu {background: url("/common/img/bul_gnb.gif") no-repeat scroll center bottom transparent;}
+.bus #gnbp3 ul li a {padding:15px 0 5px 0; font-size: 14px;}
+.bus #gnbp3 ul li ul li {width:178px; float:left;}
+.bus #gnbp3.gnbg {padding-left:106px;}
+.bus #gnbp3.gnbg ul li {width:auto;}
+.bus #gnbp3.gnbg ul li a {height: 26px; padding: 39px 30px 15px; font-size: 14px;}
+.bus #gnbp3.gnbg ul li.gnb1 .menu {left:100px;}
+.bus #gnbp3.gnbg ul li.gnb2 .menu {left:190px;}
+.bus #gnbp3.gnbg ul li.gnb3 .menu {left:180px; padding-right:0;}
+.bus #gnbp3.gnbg ul li.gnb3 .menu ul {width:472px !important; margin-right:35px;}
+.bus #gnbp3.gnbg ul li.gnb3 .menu ul li {float:left; margin-right:40px;}
+.bus #gnbp3.gnbg ul li.gnb3 .menu ul li.clmn0 {width:92px !important; clear:left;}
+.bus #gnbp3.gnbg ul li.gnb3 .menu ul li.clmn1 {width:162px !important;}
+.bus #gnbp3.gnbg ul li.gnb3 .menu ul li.clmn2 {width:138px !important; margin-right:0 !important;}
+.bus #gnbp3.gnbg ul li ul li {width:auto;}
+.bus #gnbp3.gnbg .menu a {height: auto; padding: 0;}
+
+.bus #gnbp3 .menu ul li a {font-size: 11px;}
+.bus #gnbp3 .menu ul li a.parent {color: #fff !important;}
+.bus #gnbp3.gnbg ul li .menu li {float: left;}
+.bus #gnbp3.gnbg .gnb4 .menu {left: 465px;}
+.bus #gnbp3.gnbg .gnb4 .menu li {float:none;}
+.bus #gnbp3 ul ul ul li {float:none !important;}
+.bus #gnbp3 .lastChild {margin-right: 0;}
+.bus #gnbp3 .clmn0, .bus #gnbp3 .clmn1, .bus #gnbp3 .clmn2, .bus #gnbp3 .clmn3 {margin-right: 30px;}
+
+#finder .searchArea p a[href='http://www.samsung.com/sec/support/help/modelfinder_popup.html'] {display: none;}
+
+/* Footer : Search */
+#footer .search {top:360px;}
+
+/* Footer */
+#footer {padding-bottom: 10px; clear:both;}
+#footer a {display: inline-block;}
+#footer .aboutArea {width: 148px;}
+#footer .productArea {width: 602px; padding-left: 18px;}
+#footer .helpList {width: 168px;} /* 185px */
+#footer .siteLink h2 {font-size: 14px;}
+#footer .familysite {margin-top: 38px;}
+#footer .socialList {margin-top: 38px;}
+#footer .productArea ul li a {font-size: 12px;}
+#footer .productArea ul li ul li a {font-size: 11px;}
+#footer .otherLink ul li {margin: 8px 7px 9px 0; background: url("/sec/common/img/bg_line_gray.gif") 0 50% no-repeat;}
+#footer .otherLink ul li a {font-weight: bold;}
+#footer .otherLink ul li a span {color: #ff3538;}
+#footer .otherLink .warning {float: right; margin: 8px 0;}
+#footer .otherLink .warning strong {color: #ff3538; font-size: 11px; line-height: 14px; font-weight: normal;}
+#footer .search {margin-top: 18px; top: 368px;}
+#footer .custom {padding: 10px 0 15px}
+#footer .sitesettings {float: left;}
+#footer .syndication {float: right;}
+#footer .syndication .rsslink {font-weight: bold; padding-left: 14px; background: url("/sec/images/common/icon/ico_rss.gif") 0 50% no-repeat;}
+#footer .siteinfo {color: #a1a1a1; font-size: 11px; line-height: 160%; margin: 0 auto; overflow: hidden; width: 960px;}
+#footer .siteinfo .secinfo {float:left; width: 520px; text-align: left;}
+#footer .siteinfo .secinfo address, #footer .siteinfo .secinfo .registered {display: block; float: left;}
+#footer .siteinfo .secinfo address {padding-right: 7px;}
+#footer .siteinfo .secinfo .registered {padding-left: 7px; background: url("/sec/common/img/bg_line_gray.gif") 0 50% no-repeat;}
+#footer .siteinfo .secinfo .phonenumbs li {float: left; display: block; padding: 0 7px; background: url("/sec/common/img/bg_line_gray.gif") 0 50% no-repeat;}
+#footer .siteinfo .secinfo .phonenumbs li:first-child {padding-left: 0; background: none;}
+#footer .siteinfo .copyright {float: right; width: 350px; text-align: right;}
+#footer .siteinfo .copyright span {font-weight: bold;}
+
+/* contact us 2012-02-28 add by ACG CYN */
+#content .contactUs { padding:0 130px; }
+#content .contactUs h2 { margin: 0 0 26px; font-size: 24px; line-height: 1.2; color: #010101; font-weight: normal; }
+#content .contactUs .list { float:left; width:332px; margin: 0 0 15px; line-height:16px; }
+#content .contactUs .devide1st { padding-left:36px; }
+#content .contactUs .list .topImg { margin-bottom:15px; }
+#content .contactUs .list h2 { margin-bottom:18px; }
+#content .contactUs .list li a { font-weight:bold; color:#00a9e0; }
